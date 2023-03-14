@@ -1,4 +1,4 @@
-0x03. Python project - Data Structures: Lists, Tuples
+0x03. Python project - Data Structures: Lists, Tuples for now
 
 # Python - Data Structures: Lists, Tuples
 
