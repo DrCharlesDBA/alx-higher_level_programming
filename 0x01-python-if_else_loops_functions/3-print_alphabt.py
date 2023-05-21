@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-for letter in range(97, 123):
-    if chr(letter) is not 'q' and chr(letter) is not 'e':
-        print("{}".format(chr(letter)), end="")
+for lowercase_alphabet in [chr(i) for i in range(97, 123)]:
+    if 'q' not in lowercase_alphabet:
+        if 'e' not in lowercase_alphabet:
+            print("{}".format(lowercase_alphabet), end="")
