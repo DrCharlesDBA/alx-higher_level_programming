@@ -27,18 +27,12 @@ class Rectangle:
             raise ValueError("width must be >= 0")
         self.__width = value
 
-    @property
-    def height(self):
-        return self.__height
+        def area(self):
+        """Return the area of the Rectangle."""
+        return (self.__width * self.__height)
 
-    @height.setter
-    def height(self, value):
-        """
-        Property setter for the height attribute.
-        Validates that the assigned value is an integer and >= 0.
-        """
-        if not isinstance(value, int):
-            raise TypeError("height must be an integer")
-        if value < 0:
-            raise ValueError("height must be >= 0")
-        self.__height = value
+    def perimeter(self):
+        """Return the perimeter of the Rectangle."""
+        if self.__width == 0 or self.__height == 0:
+            return (0)
+        return ((self.__width * 2) + (self.__height * 2))
