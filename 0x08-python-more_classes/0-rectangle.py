@@ -1,7 +1,12 @@
 #!/usr/bin/python3
-"""This class will define a rectangle"""
+'''
+Write an empty class Rectangle that defines a rectangle:
+'''
 
 
 class Rectangle:
-    """Within this space a ractangle will be represented"""
+    '''
+    empty class
+    '''
+
     pass
