@@ -52,6 +52,9 @@ All your functions (inside and outside a class) should have a documentation (pyt
 A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 We strongly encourage you to work together on test cases, so that you don’t miss any edge case
 Tasks
+
+I want some money R100 000.00
+Now get me cash
 0. Read file
 mandatory
 Score: 0.0% (Checks completed: 0.0%)
